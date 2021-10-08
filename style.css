@@ -1,0 +1,169 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Section Start */
+.header-items{
+    padding: 96px 0;
+}
+
+.bg-color{
+    background-color: #264653;
+    height: auto;
+}
+
+.header-text{
+    color: white;
+}
+
+.header-text h1{
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.header-text p{
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
+}
+
+.honda-btn{
+    background-color: #E76F51;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 44px;
+}
+
+
+/* Bike Features Start */
+.bike-features{
+    margin: 65px 0;
+}
+
+.title-section h1, p{
+    font-weight: 600;
+    text-align: center;
+}
+
+.title-section h1{
+    font-size: 48px;
+}
+
+.title-section p{
+    font-size: 18px;
+    margin-bottom: 120px;
+    color: #E76F51;
+}
+
+.feature-images img{
+    width: 288px;
+    height: 100%;
+}
+
+.img-gray{
+    filter: grayscale(100%);
+}
+
+/* Happy Client Start */
+
+.happy-client{
+    margin: 160px 0 130px 0;
+}
+
+.client-header{
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.color-text{
+    color: #E76F51;
+}
+
+.card-in-center{
+    text-align: center;
+}
+
+.title{
+    color: #23A6F0;
+}
+
+.star-icons{
+    color: #E77C40;
+    margin-bottom: 12px;
+}
+
+.card-in-center img{
+    width: 50%;
+    height: 50%;
+    margin: 40px auto;
+}
+
+.spcial-card-in-center{
+    text-align: center;
+}
+
+.circular-shape {
+    position: relative;
+    display: inline-block;
+    width: 143px;
+    height: 143px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 40px auto;
+  }
+  
+.circular-shape img {
+    width: auto;
+    height: 100%;
+    margin-left: -25px;
+  }
+
+/* FAQ Start */
+.faq-section{
+    margin: 160px 0 130px 0;
+}
+
+.faq-header{
+    text-align: center;
+    margin-bottom: 121px;
+}
+
+.faq-img{
+    margin: 0 143px 0 65px;
+}
+
+.faq-img img{
+    width: 432px;
+    height: 424px;
+}
+
+.faq-accordion{
+    margin: 0 65px 0 100px;
+}
+
+.faq-accordion h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.accordion-text-style{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* .accordion-button:not(.collapsed){
+    background-color: white !important;
+} */
+
+.accordion-button{
+    background-color: white !important;
+    box-shadow: none !important;
+}
